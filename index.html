@@ -1,14 +1,6 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    <!doctype html>
-<html>
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,192 +10,214 @@
 
 </head>
 <body class="font-sans">
-    <!-- navbar section  -->
-    <div>
-        <!-- 1 -->
-        <div class="flex pt-[10px] items-center-safe w-[100%]">
-            <img class="w-[200px] h-[70px] object-cover mr-[100px]" src="../pics/logo.png" alt="logo">
-            <input class="pl-[10px] border-[1px] border-black hover:outline-none rounded-[20px] w-[400px] h-[35px]" type="search" placeholder="Iphone 16 pro max" name="" id="">
-            <button class="relative left-[-23px]">
-                <i class="fa-regular fa-magnifying-glass"></i>
-            </button>
-            <button class="ml-[20px]">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>cart</span>
-            </button>
-            <button class="ml-[20px]">
-                <i class="fa-solid fa-user"></i>
-                <span>user</span>
-            </button>
+  <!-- Navbar Section -->
+<div class="w-full">
 
-        </div>
-        <!-- 2 -->
-        <div class="flex items-center overflow-y-hidden  w-[100%] max-sm: scroll-[500px] h-[40px]  " >
-            <span class="relative left-[70px] pt-[2px]">
-                <i class="fa-solid fa-bars"></i>
-            </span>
-            <select class="outline-none border-none bg-gray-100 rounded-2xl w-[200px] h-[28px] ml-[40px] mr-[40px] text-center">
-                <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>
-              <option value="All Categories">All Categories</option>
-               <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>
-                 <option value="All Categories">All Categories</option>                      <option value="All Categories">All Categories</option>
-            </select>
-            <a class="max-sm:mr-[20px] mr-[40px] text-red-500 no-underline hover:bg-gray-100" href="#">Bundle deals</a>
-            <a class="max-sm:mr-[20px] mr-[40px] no-underline hover:bg-gray-100" href="#">Weekly deals</a>
-            <a class="max-sm:mr-[20px] mr-[40px] no-underline hover:bg-gray-100" href="#">Top brands</a>
-            <a class="max-sm:mr-[20px] mr-[40px] no-underline hover:bg-gray-100" href="#">Choice</a>
-            <a class="max-sm:mr-[20px] mr-[40px] no-underline hover:bg-gray-100" href="#">Home & Gardens</a>
-            <a class="max-sm::mr-[20px] mr-[40px] no-underline hover:bg-gray-100" href="#">Hair Extension</a>
-            <select class="border-none w-[60px] h-[28px] text-center">
-                <option value="All Categories">More</option>
-                <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>
-                <option value="All Categories">All Categories</option>                      <option value="All Categories">All Categories</option>
-            </select>
-        </div>
+  <!-- Top Row: Logo + Search + Icons -->
+  <div class="flex flex-wrap items-center justify-between gap-4 px-4 py-2">
+    <!-- Logo -->
+    <img class="w-[150px] h-[90px] object-cover" src="../pics/logo.png" alt="logo">
+
+    <!-- Search Bar -->
+    <div class="flex flex-grow max-w-full sm:max-w-[400px] relative">
+      <input
+        class="pl-4 pr-10 w-full border border-black rounded-[20px] h-[35px] focus:outline-none"
+        type="search"
+        placeholder="iPhone 16 Pro Max">
+      <button class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-700">
+        <i class="fa-regular fa-magnifying-glass"></i>
+      </button>
     </div>
-    <!-- ended -->
-     <!-- backgroung image section startd girls dress -->
-    <div class="w-[100%] h-[200px] bg-[rgba(68,187,57,0.7)] text-white mt-[10px]">
-        <h3 class="text-lg font-semibold ml-[60px]">Sale Ends:May 19,11:58 (GMT+5)</h3>
-        <h1 class="text-2xl font-bold ml-[60px]">UPTO 60 % OFF</h1>
-        <div class="flex items-center gap-[20px]">
-            <!-- 1 -->
-            <div  class="h-[100px] w-[200px] gap-[5px] bg-purple-500 p-[3px] flex relative bottom-[-30px] left-[60px]">
-              <img class="h-[94px] w-[100px] object-cover object-center" src="../pics/watch.jpg" alt="">
-              <p class="text-white self-center">Top deals <br> RS:10000 </p>
-            </div>
-            <!-- 2 -->
-            <div class="flex h-[100px] gap-[5px] w-[200px] bg-[rgba(255,225,93,0.3)] p-[3px] relative bottom-[-30px] left-[60px]">
-              <img class="h-[94px] w-[100px] object-cover object-right" src="../pics/toy-car.jpg" alt="">
-              <p class="text-white self-center">Top deals  <br> RS:10000</p>
-            </div>
-            <!-- 3 -->
-            <div class="flex gap-[5px] h-[100px] w-[200px] bg-[#65a5d0] p-[3px] relative bottom-[-30px] left-[60px]">
-              <img class="h-[94px] w-[100px] object-cover object-center" src="../pics/toy-phone.jpg" alt="">
-             <p class="text-white self-center">Top deals <br> RS:10000</p>
-            </div>
-        </div>
-    </div>  
-    <!-- ended -->
-     <!-- todays deal option  -->
-    <div  class=" w-[100%]">
-        <h1 class="text-center text-3xl font-bold h-[50px] pt-[15px]">Today's Deal</h1>
-        <!-- carts 3 -->
-        <div class="flex gap-[20px] justify-center items-center h-[80vh] ">
-            <!-- 1 -->
-            <div class="h-[90%] w-[30%] border-[1px] border-gray-300 text-center p-[10px]">
-                <h2 class="text-center font-bold text-2xl">Best Sellers</h2>
-                <span class="relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
-                <button class="mt-[20px] bg-[#FFF6DD] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
-                <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
-                <div class="p-[20px] gap-[20px] flex justify-around items-center">
-                    <!-- 1 inside 1 -->
-                    <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%]  border-gray-30 ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/camera.jpg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
 
-                    </div>
-                      <!-- 2 inside 1 -->
-                     <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%] ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/battery.jpg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- 2 -->
-             <div class="h-[90%] w-[30%] border-[1px] text-center  border-gray-300">
-                <h2 class="text-center font-bold text-2xl">Super Deals</h2>
-                 <span class="relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
-                <button class="mt-[20px] bg-[#FFF6DD] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
-                <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
-                <div class="p-[20px] gap-[20px] flex justify-around items-center">
-                    <!-- 1 inside 1 -->
-                    <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%] ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/drone.jpeg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-
-                    </div>
-                     <!-- 2 inside 1 -->
-                
-                     <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%] ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/drone-new.jpg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-
-                    </div>
-                </div>
-
-            </div>
-            <!-- 3 -->
-             <div class="h-[90%] w-[30%] border-[1px] border-gray-300 text-center">
-                <h2 class="text-center font-bold text-2xl">Big Save</h2>
-                 <span class=" relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
-                <button class="bg-[#FFF6DD] mt-[20px] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
-                <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
-                <div class="p-[20px] gap-[20px] flex justify-around items-center">
-                    <!-- 1 inside 1 -->
-                    <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%] ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/xiaomi-drone.jpg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-
-                    </div>
-                    <!-- 2 inside 1 -->s
-                     <div class="p-[5px]  bg-gray-100 h-[250px] w-[47%] ">
-                        <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/watch-deals-inside.jpg" alt="">
-                        <p class="text-[15px]">Magcubic Projector HY300 </p>
-                        <h1 class="text-red-500 text-lg font-bold">`PKR 15000</h1>
-                        <strike class="font-light">PKR 35000</strike>
-                        <br>
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
+    <!-- Cart and User Buttons -->
+    <div class="flex items-center gap-4">
+      <button class="flex items-center gap-1">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="hidden sm:inline">Cart</span>
+      </button>
+      <button class="flex items-center gap-1">
+        <i class="fa-solid fa-user"></i>
+        <span class="hidden sm:inline">User</span>
+      </button>
     </div>
-    <!-- ended  -->
-     <!-- ended  -->
+  </div>
+
+  <!-- Bottom Row: Category Menu -->
+  <div class="flex items-center gap-4 px-4 py-2 overflow-x-auto whitespace-nowrap scrollbar-none">
+    <!-- Hamburger Icon -->
+    <button class="pt-[2px] relative right-[-38px]">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Category Dropdown -->
+    <select class="outline-none border-none bg-gray-100 rounded-2xl w-[160px] h-[28px] text-center">
+      <option value="Categories">Categories</option>
+      <option value="Accessories">Accessories</option>
+      <option value="Smartwatches">Smartwatches</option>
+      <option value="All Categories">All Categories</option>
+      <option value="Phones">Phones</option>
+      <option value="Accessories">Accessories</option>
+      <option v>Smartwatches</option>
+      <option value="All Categories">All Categories</option>
+      <option value="Phones">Phones</option>
+      <option value="Accessories">Accessories</option>
+      <option value="Smartwatches">Smartwatches</option>
+      <option value="Accessories">Accessories</option>
+      <option value="Smartwatches">Smartwatches</option>
+      <option value="All Categories">All Categories</option>
+      <option value="Phones">Phones</option>
+      <option value="Accessories">Accessories</option>
+      <option value="Smartwatches">Smartwatches</option>
+      
+    </select>
+
+    <!-- Links -->
+    <a class="text-red-500 hover:rounded-3xl hover:bg-gray-100 px-2 py-1 rounded" href="#">Bundle Deals</a>
+    <a class="hover:bg-gray-100 hover:rounded-3xl px-2 py-1 rounded" href="#">Weekly Deals</a>
+    <a class="hover:bg-gray-100 hover:rounded-3xl px-2 py-1 rounded" href="#">Top Brands</a>
+    <a class="hover:bg-gray-100 hover:rounded-3xl px-2 py-1 rounded" href="#">Choice</a>
+    <a class="hover:bg-gray-100 hover:rounded-3xl px-2 py-1 rounded" href="#">Home & Gardens</a>
+    <a class="hover:bg-gray-100 hover:rounded-3xl px-2 py-1 rounded" href="#">Hair Extension</a>
+
+    <!-- More Dropdown -->
+    <select class="border-none bg-gray-100 rounded-2xl w-[80px] h-[28px] text-center">
+      <option>More</option>
+      <option>Beauty</option>
+      <option>Electronics</option>
+      <option>Appliances</option>
+    </select>
+  </div>
+
+</div>
+
+  <!-- backgroung image section startd girls dress -->
+<div class="w-full h-auto bg-[rgba(0,0,0,0.8)] text-white mt-[10px] px-[10px] py-[20px]">
+  <h3 class="text-base sm:text-lg font-semibold ml-[20px] sm:ml-[60px]">Sale Ends:May 19,11:58 (GMT+5)</h3>
+  <h1 class="text-lg sm:text-2xl font-bold ml-[20px] sm:ml-[60px]">UPTO 60 % OFF</h1>
+
+  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-[20px] sm:gap-[20px] mt-[20px]">
+    
+    <!-- 1 -->
+    <div class="h-auto w-full sm:w-[200px] gap-[5px] bg-purple-500 p-[3px] flex sm:relative sm:bottom-[0px] sm:left-[60px]">
+      <img class="h-[94px] w-[100px] object-cover object-center" src="../pics/watch.jpg" alt="">
+      <p class="text-white self-center text-sm sm:text-base">Top deals <br> RS:10000</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="flex h-[100px] gap-[5px] w-full sm:w-[200px] bg-[rgba(255,225,93,0.3)] p-[3px] sm:relative sm:bottom-[0px] sm:left-[60px]">
+      <img class="h-[94px] w-[100px] object-cover object-right" src="../pics/toy-car.jpg" alt="">
+      <p class="text-white self-center text-sm sm:text-base">Top deals  <br> RS:10000</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="flex gap-[5px] h-[100px] w-full sm:w-[200px] bg-[#65a5d0] p-[3px] sm:relative sm:bottom-[0px] sm:left-[60px]">
+      <img class="h-[94px] w-[100px] object-cover object-center" src="../pics/toy-phone.jpg" alt="">
+      <p class="text-white self-center text-sm sm:text-base">Top deals <br> RS:10000</p>
+    </div>
+
+  </div>
+</div>
+<!-- ended bro -->
+  <!-- todays deal option  -->
+<!-- today's deal option -->
+<div class="w-[100%]">
+  <h1 class="text-center text-3xl font-bold h-[50px] pt-[15px] mb-[15px]">Today's Deal</h1>
+
+  <!-- cards container -->
+  <div class="flex flex-wrap gap-[20px] justify-center items-center h-auto ">
+    <!-- Card 1 -->
+    <div class="h-auto  w-[90%] md:w-[30%] border-[1px] border-gray-300 text-center box-border">
+      <h2 class="text-center font-bold text-2xl">Best Sellers</h2>
+      <span class="relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
+      <button class="mt-[20px] bg-[#FFF6DD] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
+      <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
+      <div class="p-[20px] gap-[20px] flex items-center">
+        <!-- 1 inside 1 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%] border-gray-30">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/camera.jpg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+
+        <!-- 2 inside 1 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%]">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/battery.jpg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="h-auto  w-[90%] md:w-[30%] border-[1px] text-center border-gray-300  ">
+      <h2 class="text-center font-bold text-2xl">Super Deals</h2>
+      <span class="relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
+      <button class="mt-[20px] bg-[#FFF6DD] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
+      <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
+      <div class="p-[20px] gap-[20px] flex items-center">
+        <!-- 1 inside 2 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%]">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/drone.jpeg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+
+        <!-- 2 inside 2 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%]">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/drone-new.jpg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="h-auto  w-[90%] md:w-[30%] border-[1px] border-gray-300 text-center">
+      <h2 class="text-center font-bold text-2xl">Big Save</h2>
+      <span class="relative right-[-25px]"><i class="fa-regular fa-bag-shopping"></i></span>
+      <button class="bg-[#FFF6DD] mt-[20px] w-[230px] rounded-2xl p-[3px] box-border">Top price & quality packs</button>
+      <span class="relative right-[25px]"><i class="fa-solid fa-arrow-right"></i></span>
+      <div class="p-[20px] gap-[20px] flex items-center">
+        <!-- 1 inside 3 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%]">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/xiaomi-drone.jpg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+
+        <!-- 2 inside 3 -->
+        <div class="p-[5px] bg-gray-100 h-[250px] w-[47%]">
+          <img class="object-cover object-center w-[110px] h-[110px] justify-self-center" src="../pics/watch-deals-inside.jpg" alt="">
+          <p class="text-[15px]">Magcubic Projector HY300</p>
+          <h1 class="text-red-500 text-lg font-bold">PKR 15000</h1>
+          <strike class="font-light">PKR 35000</strike><br>
+          <i class="fa-regular fa-star"></i> <span>4.7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ended -->
+ <!-- end  -->
+
     <div>
         <h1 class="text-3xl text-center pb-[20px] font-bold">More to love</h1>
-        <div class="grid grid-cols-2 gap-2.5 ml-[50px] mr-[50px] place-content-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 min-">
+        <div class="grid grid-cols-2 gap-2.5 ml-[10px] mr-[10px] md:ml-[50px] md:mr-[50px] place-content-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 ">
             <!-- first image container -->
-            <div class="group flex flex-col group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]" >
+            <div class="group flex flex-col items-center hover:border[2px] hover:border-black">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/drone-new.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/drone-new.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -226,15 +240,15 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                 <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
+                 <button class="hidden group-hover:block relative">
                     See preview
                 </button>
 
             </div>
              <!-- 2 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/camera.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/camera.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -257,15 +271,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 3 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/battery.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/battery.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -288,15 +299,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 4 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/watch.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/watch.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -319,15 +327,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 5 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/drone.jpeg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/drone.jpeg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -350,15 +355,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 6 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/dress.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/dress.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -381,15 +383,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 7 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/camera2new.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/camera2new.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -412,15 +411,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 8 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/solarpanel2.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/solarpanel2.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -443,15 +439,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 9 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/google-pixel.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/google-pixel.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -474,15 +467,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 10 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/watch-led.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/watch-led.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -505,15 +495,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 11 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/toy-car.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/toy-car.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -536,15 +523,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 12image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/xiaomi-drone.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/xiaomi-drone.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -567,15 +551,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 13 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/watch.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/watch.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -598,15 +579,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 14 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/battery.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/battery.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -629,15 +607,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
-                    See preview
-                </button>
 
             </div>
              <!-- 15 image container -->
             <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/camra2.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/camra2.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -660,15 +635,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 16 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/google-pixel.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/google-pixel.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -691,15 +663,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 17 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/drone-new.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/drone-new.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -722,15 +691,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 18 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/dress.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/dress.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -753,15 +719,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 19 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/solarpanel2.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/solarpanel2.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -784,15 +747,12 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
              <!-- 20 image container -->
-            <div class="flex flex-col  items-center  group items-center hover:border-[1px] hover:border-gray-50 shadow-lg rounded-[6px]">
+            <div class="flex flex-col  items-center">
                 <a href="#">
-                    <img class="h-[200px] w-[190px] object-cover" src="../pics/camera.jpg" alt="">
+                    <img class="h-[200px] w-[190px] object-cover" src="pics/camera.jpg" alt="">
                 </a>
                 <p>Professional Drone E88</p>
                 <span class="text-[11px]">
@@ -815,9 +775,6 @@
                     <button class="bg-yellow-200 w-[40px] h-[20px] text-[10px] font-semibold">Choice</button>
                     <span class="text-[12px]">Free shipping over PKR2856</span>
                 </span>
-                <button class="hidden group-hover:block relative bg-black text-white font-bold text-[13px] h-[27px] my-[10px] w-[90%]">
-                    See preview
-                </button>
 
             </div>
     
@@ -918,8 +875,5 @@
 </footer>
   
 
-</body>
-</html>
-    
 </body>
 </html>
